@@ -3,3 +3,8 @@
   to = "http://rrrecords.space/:splat"
   status = 301
   force = true
+[[redirects]]
+  from = "https://elegant-borg-1437d6.netlify.com/*"
+  to = "https://rrrecords.space/:splat"
+  status = 301
+  force = true

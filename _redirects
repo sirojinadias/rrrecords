@@ -3,3 +3,4 @@
 
 # Redirect default Netlify subdomain to primary domain
 http://elegant-borg-1437d6.netlify.com/* http://rrrecords.space/:splat 301!
+https://elegant-borg-1437d6.netlify.com/* https://rrrecords.space/:splat 301!
