@@ -80,7 +80,7 @@ function MyApp({Component, pageProps}: AppProps) {
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <div className="container p-4">
+      <div className="container px-3 md:px-0 lg:px-0 mx-auto my-10 sm:px-20">
         <Component {...pageProps} />
       </div>
     </>
