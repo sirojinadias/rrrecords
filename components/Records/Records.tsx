@@ -32,7 +32,7 @@ export const Records: FunctionComponent = () => (
       artist="Fragments"
       cover="FRA_SFM.jpg"
       details={`Record & mix. Recorded at Le Novomax, Kemper (FR). Mixed at Trempolino, Nantes (FR)`}
-      link={`https://whitenightghosts.bandcamp.com/album/exorcism-party`}
+      link={`https://frgmnts.bandcamp.com/album/songs-for-marge`}
       tags={`#radioraviolirecords #fargo #fragments #ambiant #electronica #recording #mixing #novomax #coenbrothers`}
     />
     <Record
