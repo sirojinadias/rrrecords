@@ -4,6 +4,14 @@ import {Record} from '../Record'
 export const Records: FunctionComponent = () => (
   <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
     <Record
+      title="Écailles synthétiques"
+      artist="Simone d'Opale"
+      cover="SIM_ECAILLES.jpg"
+      details={`Production, record & mix. Recorded & mixed at Trempolino, Nantes (FR).`}
+      link={`https://www.youtube.com/watch?v=MnI-GQpM1ro`}
+      tags={`#radioraviolirecords #simonedopale #ecaillessynthetiques`}
+    />
+    <Record
       title="Bouncer"
       artist="Bops"
       cover="BOPS_BOUNCER.jpg"
