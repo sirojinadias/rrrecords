@@ -17,6 +17,10 @@ const Home: NextPage = () => {
         </div>
         <div className="mb-4">
           <h1>RADIO RAVIOLI RECORDS</h1>
+          <h2>
+            RRR is an organization run by Joris Saïdani (record/mix/production)
+            &amp; Jodie Roszak (management/communication).
+          </h2>
         </div>
 
         <div className="w-full lg:w-1/2 relative mb-5">
@@ -35,13 +39,13 @@ const Home: NextPage = () => {
             >
               Claire Huteau
             </a>{' '}
-            in Impersonal Studio, owned by Thomas Poli.
+            in Impersonal Studio, owned by awesome Thomas Poli.
           </span>
         </div>
 
         <div className="p-6 bg-white md:max-w-sm">
           <h2 className="text-xl font-medium text-black uppercase">
-            Some of my work
+            Some of our work
           </h2>
         </div>
         <Records />
