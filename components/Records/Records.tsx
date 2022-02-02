@@ -4,6 +4,14 @@ import {Record} from '../Record'
 export const Records: FunctionComponent = () => (
   <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
     <Record
+      title="Sounds of Parade"
+      artist="Bops"
+      cover="BOPS_SOUNDS_OF_PARADE.jpg"
+      details={`Production, record & mix (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
+      link={`https://modulor.lnk.to/SoundOfParade`}
+      tags={`#radioraviolirecords #bops #soundsofparade`}
+    />
+    <Record
       title="R.A.V.A.C.H.O.L"
       artist="Bops"
       cover="BOPS_RAVACHOL.jpg"
