@@ -19,7 +19,8 @@ const Home: NextPage = () => {
           <h1>RADIO RAVIOLI RECORDS</h1>
           <h2>
             RRR is an organization run by Joris Saïdani (record/mix/production)
-            &amp; Jodie Roszak (management/communication).
+            &amp; Jodie Roszak (management/communication). We're based in
+            Nantes, France.
           </h2>
         </div>
 
