@@ -24,7 +24,9 @@ const Link: FunctionComponent<LinkProps> = ({
     href={href}
     rel="noopener noreferrer"
     target="_blank"
-    className={`bg-black text-white ${btn ? 'px-3 py-2' : null}`}
+    className={`bg-black text-white hover:bg-white hover:text-black hover:border-4 border-black ${
+      btn ? 'px-3 py-2' : null
+    }`}
   >
     {component.children}
   </a>
@@ -39,7 +41,7 @@ export const Record: FunctionComponent<RecordProps> = ({
   tags,
 }) => {
   return (
-    <div className="grid grid-row-3 items-start gap-4 overflow-hidden w-full bg-white mr-3 min-w-min">
+    <div className="flex flex-col content-start gap-4 overflow-hidden w-full md:w-80 lg:w-64 bg-white min-w-min">
       <div className="w-full">
         <Link href={link}>
           <Image
@@ -52,7 +54,7 @@ export const Record: FunctionComponent<RecordProps> = ({
           />
         </Link>
       </div>
-      <div className="px-3 justify-self-start">
+      <div className="px-3">
         <span className="font-medium mr-1 text-black">
           <span className="font-bold  text-xl uppercase">{title}</span>{' '}
           <span className="text-md">by {artist}</span>
@@ -63,7 +65,7 @@ export const Record: FunctionComponent<RecordProps> = ({
         <span className="text-sm text-gray-400 font-medium">{tags}</span>
         <br />
       </div>
-      <div className="text-black font-bold uppercase self-end px-3 pb-4">
+      <div className="text-black font-bold uppercase px-3 pb-4 mt-auto">
         <Link href={link} btn={true}>
           Listen
         </Link>

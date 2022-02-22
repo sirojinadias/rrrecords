@@ -2,13 +2,13 @@ import React, {FunctionComponent} from 'react'
 import {Record} from '../Record'
 
 export const Records: FunctionComponent = () => (
-  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
+  <div className="flex flex-wrap md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
     <Record
       title="Sounds of Parade"
       artist="Bops"
       cover="BOPS_SOUNDS_OF_PARADE.jpg"
       details={`Production, record & mix (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
-      link={`https://modulor.lnk.to/SoundOfParade`}
+      link={`https://modulor.lnk.to/SoundsOfParade`}
       tags={`#radioraviolirecords #bops #soundsofparade`}
     />
     <Record
@@ -16,7 +16,7 @@ export const Records: FunctionComponent = () => (
       artist="Bops"
       cover="BOPS_RAVACHOL.jpg"
       details={`Production, record & mix (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
-      link={`https://bops.bandcamp.com/track/r-a-v-a-c-h-o-l`}
+      link={`https://www.youtube.com/watch?v=VhqiaaFPnRs`}
       tags={`#radioraviolirecords #bops #ravachol`}
     />
     <Record
@@ -26,6 +26,30 @@ export const Records: FunctionComponent = () => (
       details={`Production, record & mix. Recorded & mixed at Trempolino, Nantes (FR).`}
       link={`https://www.youtube.com/watch?v=MnI-GQpM1ro`}
       tags={`#radioraviolirecords #simonedopale #ecaillessynthetiques`}
+    />
+    <Record
+      title="Bouncer (Live Session)"
+      artist="Bops"
+      cover="BOPS_BOUNCER_LIVE.png"
+      details={`Mixed at Trempolino, Nantes (FR).`}
+      link={`https://www.youtube.com/watch?v=MCJ7n_AjeLs`}
+      tags={`#radioraviolirecords #bops #bouncer`}
+    />
+    <Record
+      title="Novomax Live"
+      artist="Simone d'Opale"
+      cover="SIM_NOVOMAX.png"
+      details={`Mixed at Trempolino, Nantes (FR).`}
+      link={`https://www.youtube.com/watch?v=TiFJdhToplE`}
+      tags={`#radioraviolirecords #simonedopale #novomax`}
+    />
+    <Record
+      title="Ferrailleur Live"
+      artist="Birds in Row"
+      cover="BIR_FERRAILLEUR.png"
+      details={`Mixed at Trempolino, Nantes (FR).`}
+      link={`https://www.youtube.com/watch?v=my5V6Xf6-pM`}
+      tags={`#radioraviolirecords #birdsinrow #ferrailleur`}
     />
     <Record
       title="Bouncer"
