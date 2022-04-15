@@ -1,4 +1,4 @@
-import React, {FunctionComponent} from 'react'
+import React, {FunctionComponent, ReactNode} from 'react'
 import Image from 'next/image'
 
 type RecordProps = {
@@ -13,6 +13,7 @@ type RecordProps = {
 type LinkProps = {
   href: string
   btn?: boolean
+  children?: ReactNode
 }
 
 const Link: FunctionComponent<LinkProps> = ({
