@@ -4,6 +4,14 @@ import {Record} from '../Record'
 export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
     <Record
+      title="Quand le jour tombe"
+      artist="Simone d'Opale"
+      cover="SIM_QUAND.png"
+      details={`Production, record & mix. Recorded & mixed at Trempolino, Nantes (FR).`}
+      link={`https://www.youtube.com/watch?v=szcrQaxoVjE`}
+      tags={`#radioraviolirecords #simonedopale #quandlejourtombe`}
+    />
+    <Record
       title="Sounds of Parade"
       artist="Bops"
       cover="BOPS_SOUNDS_OF_PARADE.jpg"
@@ -28,6 +36,14 @@ export const Records: FunctionComponent = () => (
       tags={`#radioraviolirecords #simonedopale #ecaillessynthetiques`}
     />
     <Record
+      title="Alaska"
+      artist="Coco Clare"
+      cover="COCO_ALASKA.png"
+      details={`Production, record & mix. Recorded & mixed at Trempolino, Nantes (FR).`}
+      link={`https://www.youtube.com/watch?v=kI1cYFVEw5I`}
+      tags={`#radioraviolirecords #cococlare #alaska`}
+    />
+    <Record
       title="Bouncer (Live Session)"
       artist="Bops"
       cover="BOPS_BOUNCER_LIVE.png"
@@ -47,7 +63,7 @@ export const Records: FunctionComponent = () => (
       title="Ferrailleur Live"
       artist="Birds in Row"
       cover="BIR_FERRAILLEUR.png"
-      details={`Mixed at Trempolino, Nantes (FR).`}
+      details={`Mixed at Studio 123, Romillé (FR).`}
       link={`https://www.youtube.com/watch?v=my5V6Xf6-pM`}
       tags={`#radioraviolirecords #birdsinrow #ferrailleur`}
     />
