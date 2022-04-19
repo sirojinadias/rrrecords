@@ -24,7 +24,7 @@ export const Records: FunctionComponent = () => (
       artist="Bops"
       cover="BOPS_RAVACHOL.jpg"
       details={`Production, record & mix (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
-      link={`https://www.youtube.com/watch?v=VhqiaaFPnRs`}
+      link={`https://www.youtube.com/watch?v=T5J0-ioDzBk`}
       tags={`#radioraviolirecords #bops #ravachol`}
     />
     <Record
