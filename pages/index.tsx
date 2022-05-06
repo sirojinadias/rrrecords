@@ -18,14 +18,13 @@ const Home: NextPage = () => {
         <div className="mb-4">
           <h1>RADIO RAVIOLI RECORDS</h1>
           <h2>
-            RRR is an organization run by Joris Saïdani (record/mix/production)
-            &amp; Jodie Roszak (management/communication).
-            <br />
-            We&apos;re based in Nantes, France.
+            RRR is an organization run by Joris Saïdani
+            (recording/mixing/production) &amp; Jodie Roszak
+            (management/communication). We&apos;re based in Nantes, France.
           </h2>
         </div>
 
-        <div className="w-full 2xl:w-1/2 relative mb-5">
+        <div className="w-full lg:w-1/2 relative mb-5">
           <Image
             src={jorisPic}
             alt="Joris Saïdani"
@@ -33,15 +32,15 @@ const Home: NextPage = () => {
             placeholder="blur"
           ></Image>
           <span className="text-gray-600 text-xs">
-            Photo by awesome{' '}
+            Photo by the awesome{' '}
             <a
-              href="https://www.instagram.com/huteauclaire/?hl=fr"
+              href="https://www.instagram.com/clairehuteau/"
               target="_blank"
               rel="noreferrer"
             >
               Claire Huteau
             </a>{' '}
-            in Impersonal Studio, owned by awesome Thomas Poli.
+            in Impersonal Studio, owned by the awesome Thomas Poli.
           </span>
         </div>
 

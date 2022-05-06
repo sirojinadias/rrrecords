@@ -7,15 +7,23 @@ export const Records: FunctionComponent = () => (
       title="Quand le jour tombe"
       artist="Simone d'Opale"
       cover="SIM_QUAND.png"
-      details={`Production, record & mix. Recorded & mixed at Trempolino, Nantes (FR).`}
+      details={`Production, recording & mixing. Recorded & mixed in Nantes (FR).`}
       link={`https://www.youtube.com/watch?v=szcrQaxoVjE`}
       tags={`#radioraviolirecords #simonedopale #quandlejourtombe`}
+    />
+    <Record
+      title="The Ecomard Live Sessions"
+      artist="Middle Child"
+      cover="MC_ECOMARD.png"
+      details={`Recording & mixing. Recorded in Ecomard & mixed in Nantes (FR).`}
+      link={`https://linktr.ee/middlechildmiddle`}
+      tags={`#radioraviolirecords #middlechild #ecomard`}
     />
     <Record
       title="Sounds of Parade"
       artist="Bops"
       cover="BOPS_SOUNDS_OF_PARADE.jpg"
-      details={`Production, record & mix (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
+      details={`Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
       link={`https://modulor.lnk.to/SoundsOfParade`}
       tags={`#radioraviolirecords #bops #soundsofparade`}
     />
@@ -23,7 +31,7 @@ export const Records: FunctionComponent = () => (
       title="R.A.V.A.C.H.O.L"
       artist="Bops"
       cover="BOPS_RAVACHOL.jpg"
-      details={`Production, record & mix (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
+      details={`Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
       link={`https://www.youtube.com/watch?v=T5J0-ioDzBk`}
       tags={`#radioraviolirecords #bops #ravachol`}
     />
@@ -31,7 +39,7 @@ export const Records: FunctionComponent = () => (
       title="Écailles synthétiques"
       artist="Simone d'Opale"
       cover="SIM_ECAILLES.jpg"
-      details={`Production, record & mix. Recorded & mixed at Trempolino, Nantes (FR).`}
+      details={`Production, recording & mixing. Recorded & mixed in Nantes (FR).`}
       link={`https://www.youtube.com/watch?v=MnI-GQpM1ro`}
       tags={`#radioraviolirecords #simonedopale #ecaillessynthetiques`}
     />
@@ -39,7 +47,7 @@ export const Records: FunctionComponent = () => (
       title="Alaska"
       artist="Coco Clare"
       cover="COCO_ALASKA.png"
-      details={`Production, record & mix. Recorded & mixed at Trempolino, Nantes (FR).`}
+      details={`Production, recording & mixing. Recorded & mixed in Nantes (FR).`}
       link={`https://www.youtube.com/watch?v=kI1cYFVEw5I`}
       tags={`#radioraviolirecords #cococlare #alaska`}
     />
@@ -47,7 +55,7 @@ export const Records: FunctionComponent = () => (
       title="Bouncer (Live Session)"
       artist="Bops"
       cover="BOPS_BOUNCER_LIVE.png"
-      details={`Mixed at Trempolino, Nantes (FR).`}
+      details={`Mixed in Nantes (FR).`}
       link={`https://www.youtube.com/watch?v=MCJ7n_AjeLs`}
       tags={`#radioraviolirecords #bops #bouncer`}
     />
@@ -55,7 +63,7 @@ export const Records: FunctionComponent = () => (
       title="Novomax Live"
       artist="Simone d'Opale"
       cover="SIM_NOVOMAX.png"
-      details={`Mixed at Trempolino, Nantes (FR).`}
+      details={`Mixed in Nantes (FR).`}
       link={`https://www.youtube.com/watch?v=TiFJdhToplE`}
       tags={`#radioraviolirecords #simonedopale #novomax`}
     />
@@ -71,7 +79,7 @@ export const Records: FunctionComponent = () => (
       title="Bouncer"
       artist="Bops"
       cover="BOPS_BOUNCER.jpg"
-      details={`Production, record & mix (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
+      details={`Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
       link={`https://bops.bandcamp.com/track/bouncer`}
       tags={`#radioraviolirecords #bops #bouncer`}
     />
@@ -95,7 +103,7 @@ export const Records: FunctionComponent = () => (
       title="Songs for Marge"
       artist="Fragments"
       cover="FRA_SFM.jpg"
-      details={`Record & mix. Recorded at Le Novomax, Kemper (FR). Mixed at Trempolino, Nantes (FR)`}
+      details={`recording & mixing. Recorded at Le Novomax, Kemper (FR). Mixed in Nantes (FR)`}
       link={`https://frgmnts.bandcamp.com/album/songs-for-marge`}
       tags={`#radioraviolirecords #fargo #fragments #ambiant #electronica #recording #mixing #novomax #coenbrothers`}
     />
