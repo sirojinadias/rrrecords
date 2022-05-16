@@ -16,7 +16,7 @@ export const Records: FunctionComponent = () => (
       artist="Middle Child"
       cover="MC_ECOMARD.png"
       details={`Recording & mixing. Recorded in Ecomard & mixed in Nantes (FR).`}
-      link={`https://linktr.ee/middlechildmiddle`}
+      link={`https://www.youtube.com/watch?v=tDtKDB0WXCs`}
       tags={`#radioraviolirecords #middlechild #ecomard`}
     />
     <Record
