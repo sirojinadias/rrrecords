@@ -36,14 +36,6 @@ export const Records: FunctionComponent = () => (
       tags={`#radioraviolirecords #bops #soundsofparade`}
     />
     <Record
-      title="R.A.V.A.C.H.O.L"
-      artist="Bops"
-      cover="BOPS_RAVACHOL.jpg"
-      details={`Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
-      link={`https://www.youtube.com/watch?v=T5J0-ioDzBk`}
-      tags={`#radioraviolirecords #bops #ravachol`}
-    />
-    <Record
       title="Écailles synthétiques"
       artist="Simone d'Opale"
       cover="SIM_ECAILLES.jpg"
@@ -58,6 +50,14 @@ export const Records: FunctionComponent = () => (
       details={`Production, recording & mixing. Recorded & mixed in Nantes (FR).`}
       link={`https://www.youtube.com/watch?v=kI1cYFVEw5I`}
       tags={`#radioraviolirecords #cococlare #alaska`}
+    />
+    <Record
+      title="R.A.V.A.C.H.O.L"
+      artist="Bops"
+      cover="BOPS_RAVACHOL.jpg"
+      details={`Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
+      link={`https://www.youtube.com/watch?v=T5J0-ioDzBk`}
+      tags={`#radioraviolirecords #bops #ravachol`}
     />
     <Record
       title="Bouncer (Live Session)"
