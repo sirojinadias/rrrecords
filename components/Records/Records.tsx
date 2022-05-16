@@ -4,6 +4,14 @@ import {Record} from '../Record'
 export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
     <Record
+      title="The Flag"
+      artist="Bops"
+      cover="BOPS_FLAG.jpg"
+      details={`Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
+      link={`https://www.youtube.com/watch?v=yehW7DtpNec`}
+      tags={`#radioraviolirecords #bops #soundsofparade`}
+    />
+    <Record
       title="Quand le jour tombe"
       artist="Simone d'Opale"
       cover="SIM_QUAND.png"
