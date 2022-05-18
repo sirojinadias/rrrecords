@@ -24,12 +24,13 @@ const Home: NextPage = () => {
           </h2>
         </div>
 
-        <div className="w-full lg:w-1/2 relative mb-5">
+        <div className="w-full lg:w-2/3 relative mb-5">
           <Image
             src={jorisPic}
             alt="Joris Saïdani"
             title="Joris Saïdani"
             placeholder="blur"
+            layout="responsive"
           ></Image>
           <span className="text-gray-600 text-xs">
             Photo by the awesome{' '}
