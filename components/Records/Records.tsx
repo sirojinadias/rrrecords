@@ -46,7 +46,7 @@ export const Records: FunctionComponent = () => (
     <Record
       title="Alaska"
       artist="Coco Clare"
-      cover="COCO_ALASKA.png"
+      cover="COCO_ALASKA.jpg"
       details={`Production, recording & mixing. Recorded & mixed in Nantes (FR).`}
       link={`https://www.youtube.com/watch?v=kI1cYFVEw5I`}
       tags={`#radioraviolirecords #cococlare #alaska`}
