@@ -4,6 +4,14 @@ import {Record} from '../Record'
 export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
     <Record
+      title="Île​-​Nénuphar"
+      artist="Simone d'Opale"
+      cover="SIM_ILE_NENUPHAR.jpeg"
+      details={`Production, recording & mixing. Recorded & mixed in Nantes (FR).`}
+      link={`https://simonedopale.bandcamp.com/releases`}
+      tags={`#radioraviolirecords #simonedopale #ilenenuphar`}
+    />
+    <Record
       title="The Flag"
       artist="Bops"
       cover="BOPS_FLAG.jpg"
