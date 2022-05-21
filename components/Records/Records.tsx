@@ -22,7 +22,7 @@ export const Records: FunctionComponent = () => (
     <Record
       title="Quand le jour tombe"
       artist="Simone d'Opale"
-      cover="SIM_QUAND.png"
+      cover="SIM_QUAND.jpeg"
       details={`Production, recording & mixing. Recorded & mixed in Nantes (FR).`}
       link={`https://www.youtube.com/watch?v=szcrQaxoVjE`}
       tags={`#radioraviolirecords #simonedopale #quandlejourtombe`}
