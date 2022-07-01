@@ -25,9 +25,9 @@ const Link: FunctionComponent<LinkProps> = ({
     href={href}
     rel="noopener noreferrer"
     target="_blank"
-    className={`bg-black text-white hover:bg-white hover:text-black hover:border-4 border-black ${
-      btn ? 'px-3 py-2' : null
-    }`}
+    className={`bg-black text-white duration-200 hover:bg-white hover:text-black ${
+      btn ? 'px-3 py-2 border-2' : ''
+    } border-black`}
   >
     {component.children}
   </a>
@@ -57,16 +57,17 @@ export const Record: FunctionComponent<RecordProps> = ({
       </div>
       <div className="px-3">
         <span className="font-medium mr-1 text-black">
-          <span className="font-bold  text-xl uppercase">{title}</span>{' '}
-          <span className="text-md">by {artist}</span>
+          <span className="font-extralight uppercase text-xl">{title}</span>{' '}
+          <br />
+          <span className="font-semibold text-md">{artist}</span>
         </span>
         <br />
-        <span className="text-sm text-gray-800 font-medium">{details}</span>
+        <span className="text-sm text-gray-800 font-thin">{details}</span>
         <br />
         <span className="text-sm text-gray-400 font-medium">{tags}</span>
         <br />
       </div>
-      <div className="text-black font-bold uppercase px-3 pb-4 mt-auto">
+      <div className="text-black font-thin uppercase px-3 pb-4 mt-auto">
         <Link href={link} btn={true}>
           Listen
         </Link>
