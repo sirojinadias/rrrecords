@@ -6,31 +6,31 @@ export const Wips: FunctionComponent = () => (
     <Wip
       title="Championne"
       cover="SIM_ILE_NENUPHAR.jpeg"
-      details={`Producing few songs for Rennes-based artist Mathilde Lejas. Amazing songwriter.`}
+      details={`Producing a few songs for Rennes-based artist Mathilde Lejas. Amazing songwriter.`}
       link={`https://simonedopale.bandcamp.com/releases`}
     />
     <Wip
       title="Neptune in June"
       cover="BOPS_FLAG.jpg"
-      details={`Producing an album for a fresh new project called Neptune in June (formerly La Houle). If you like lo-fi pop and distortion, stay tuned.`}
+      details={`Producing an album for a brand new project called Neptune in June (formerly known as La Houle). If you like lo-fi pop music and distortion, stay tuned.`}
       link={`https://www.youtube.com/watch?v=yehW7DtpNec`}
     />
     <Wip
       title="Edinburgh of the Seven Seas"
       cover="BOPS_FLAG.jpg"
-      details={`Producing, recording, playing some instruments and mixing an album for Edinburgh of the Seven Seas. It's an island and also a good friend of us.`}
+      details={`Producing, recording, mixing and playing some instruments on and for the upcoming Edinburgh of the Seven Seas album. He is an island and also a good friend of us.`}
       link={`https://www.youtube.com/watch?v=yehW7DtpNec`}
     />
     <Wip
       title="Tago Mago"
       cover="BOPS_FLAG.jpg"
-      details={`Just finished producing Tago Mago first album. Rhodes and drums, crazy duo. Recorded live in The Apiary studio, Laval (FR). One track feature a guest singer from a cult Dutch band ;-)`}
+      details={`Just finished producing Tago Mago's debut album. A one-of-a-kind Rhodes & drum duo. Recorded live at The Apiary studio, Laval (FR). One track features a guest you might have heard sing in an infamous Dutch band ;-)`}
       link={`https://www.youtube.com/watch?v=Vq1jH2EQ36A`}
     />
     <Wip
       title="Mix With The Masters #2"
       cover="BOPS_FLAG.jpg"
-      details={`Just came back from a one week seminar at La Fabrique Studio with Tchad Blake. Previous one was with Shawn Everett. Both occasions to learn from amazing people.`}
+      details={`Just came back from a one-week seminar at the La Fabrique studio with Tchad Blake. Previous one was with Shawn Everett. Both were opportunities to learn from amazing people.`}
       link={`https://www.youtube.com/watch?v=Vq1jH2EQ36A`}
     />
     <Wip
@@ -42,7 +42,7 @@ export const Wips: FunctionComponent = () => (
     <Wip
       title="Hayden Besswood"
       cover="BOPS_FLAG.jpg"
-      details={`Just finished mixing first Hayden Besswood album. Solo project of Nantes-based artist Quentin Le Gorrec, collaborating with few people from Inuït & friends.`}
+      details={`Just finished mixing Hayden Besswood's debut album. It is the solo project of Nantes-based artist Quentin Le Gorrec, collaborating with a few people from Inuït & other friends.`}
       link={`https://www.youtube.com/watch?v=Vq1jH2EQ36A`}
     />
   </div>
