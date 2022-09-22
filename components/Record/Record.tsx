@@ -1,5 +1,5 @@
 import React, {FunctionComponent, ReactNode} from 'react'
-import Image from 'next/image'
+import Image from 'next/future/image'
 
 type RecordProps = {
   title: string
@@ -48,7 +48,7 @@ export const Record: FunctionComponent<RecordProps> = ({
           <Image
             className="w-full bg-cover"
             src={`/records/` + cover}
-            layout="responsive"
+            //layout="responsive"
             width="300"
             height="300"
             alt={`${title} by ${artist}`}

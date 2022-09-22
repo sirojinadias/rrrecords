@@ -4,6 +4,14 @@ import {Record} from '../Record'
 export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
     <Record
+      title="Traversée Sauvage"
+      artist="Tago Mago"
+      cover="TAGO_MAGO_TRAVERSEE_SAUVAGE.jpg"
+      details={`Production, recording & mixing. Recorded at The Apiary, Laval (FR) & mixed in Nantes (FR).`}
+      link={`https://open.spotify.com/artist/6biUHeemP2RGExRI8ZUDa6?si=t7vKsZw6SvGZRemAupdlpA`}
+      tags={`#radioraviolirecords #tagomago #traverseesauvage`}
+    />
+    <Record
       title="Île​-​Nénuphar"
       artist="Simone d'Opale"
       cover="SIM_ILE_NENUPHAR.jpeg"
