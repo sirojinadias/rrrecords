@@ -12,6 +12,14 @@ export const Records: FunctionComponent = () => (
       tags={`#radioraviolirecords #tagomago #traverseesauvage`}
     />
     <Record
+      title="Amasia"
+      artist="Fragments"
+      cover="FRA_AMASIA.jpg"
+      details={`Mixing. Recorded by Thomas Poli at Impersonal Freedom, Rennes (FR) & mixed in Nantes (FR).`}
+      link={`https://wiseband.lnk.to/Fragments-Amasia`}
+      tags={`#radioraviolirecords #fragments #amasia`}
+    />
+    <Record
       title="Île​-​Nénuphar"
       artist="Simone d'Opale"
       cover="SIM_ILE_NENUPHAR.jpeg"
