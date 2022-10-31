@@ -20,6 +20,14 @@ export const Records: FunctionComponent = () => (
       tags={`#radioraviolirecords #fragments #amasia`}
     />
     <Record
+      title="Walk Away"
+      artist="Alice HA"
+      cover="ALICE_WALK.jpg"
+      details={`Production, recording & mixing. Recorded in Nantes (FR), mixed in The Apiary, Laval (FR).`}
+      link={`https://www.youtube.com/watch?v=kpmpFedL6do`}
+      tags={`#radioraviolirecords #aliceha #walkaway`}
+    />
+    <Record
       title="Île​-​Nénuphar"
       artist="Simone d'Opale"
       cover="SIM_ILE_NENUPHAR.jpeg"
@@ -71,7 +79,7 @@ export const Records: FunctionComponent = () => (
       title="Alaska"
       artist="Coco Clare"
       cover="COCO_ALASKA.jpg"
-      details={`Production, recording & mixing. Recorded & mixed in Nantes (FR).`}
+      details={`Production, recording & mixing. Recorded in Nantes (FR), mixed in The Apiary, Laval (FR).`}
       link={`https://www.youtube.com/watch?v=kI1cYFVEw5I`}
       tags={`#radioraviolirecords #cococlare #alaska`}
     />
