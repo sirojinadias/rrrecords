@@ -33,7 +33,6 @@ const Home: NextPage = () => {
             alt="Joris Saïdani"
             title="Joris Saïdani"
             placeholder="blur"
-            layout="responsive"
           ></Image>
           <span className="text-gray-600 text-xs">
             Photo by the awesome{' '}
