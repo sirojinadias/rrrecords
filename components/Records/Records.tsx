@@ -12,6 +12,14 @@ export const Records: FunctionComponent = () => (
       tags={`#radioraviolirecords #tagomago #traverseesauvage`}
     />
     <Record
+      title="Spin Out"
+      artist="Hayden Besswood"
+      cover="HB_SPIN.jpg"
+      details={`Mixing. Mixed at The Apiary, Laval (FR).`}
+      link={`https://www.youtube.com/watch?v=oynGNvaKrAU`}
+      tags={`#radioraviolirecords #haydenbesswood #spinout`}
+    />
+    <Record
       title="Amasia"
       artist="Fragments"
       cover="FRA_AMASIA.jpg"
