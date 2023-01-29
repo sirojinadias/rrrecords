@@ -36,6 +36,14 @@ export const Records: FunctionComponent = () => (
       tags={`#radioraviolirecords #fragments #amasia`}
     />
     <Record
+      title="Sounds of Parade"
+      artist="Bops"
+      cover="BOPS_SOUNDS_OF_PARADE.jpg"
+      details={`Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
+      link={`https://modulor.lnk.to/SoundsOfParade`}
+      tags={`#radioraviolirecords #bops #soundsofparade`}
+    />
+    <Record
       title="Walk Away"
       artist="Alice HA"
       cover="ALICE_WALK.jpg"
@@ -74,14 +82,6 @@ export const Records: FunctionComponent = () => (
       details={`Recording & mixing. Recorded in Ecomard & mixed in Nantes (FR).`}
       link={`https://www.youtube.com/watch?v=tDtKDB0WXCs`}
       tags={`#radioraviolirecords #middlechild #ecomard`}
-    />
-    <Record
-      title="Sounds of Parade"
-      artist="Bops"
-      cover="BOPS_SOUNDS_OF_PARADE.jpg"
-      details={`Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
-      link={`https://modulor.lnk.to/SoundsOfParade`}
-      tags={`#radioraviolirecords #bops #soundsofparade`}
     />
     <Record
       title="Écailles synthétiques"
