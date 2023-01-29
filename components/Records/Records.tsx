@@ -4,6 +4,14 @@ import {Record} from '../Record'
 export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
     <Record
+      title="Déjà Vu"
+      artist="Hayden Besswood"
+      cover="HB_DEJA_VU.jpeg"
+      details={`Mixing. Mixed at The Apiary, Laval (FR).`}
+      link={`https://www.youtube.com/watch?v=Y6ha7wbCEFQ`}
+      tags={`#radioraviolirecords #haydenbesswood #dejavu`}
+    />
+    <Record
       title="Traversée Sauvage"
       artist="Tago Mago"
       cover="TAGO_MAGO_TRAVERSEE_SAUVAGE.jpg"
