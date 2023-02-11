@@ -12,6 +12,10 @@ export const Wips: FunctionComponent = () => (
       details={`Producing an album for a brand new project called Neptune in June (formerly known as La Houle). If you like lo-fi pop music and distortion, stay tuned.`}
     />
     <Wip
+      title="Wonderboy"
+      details={`About to mix some news songs of the Rennes-based artist Wonderboy.`}
+    />
+    <Wip
       title="Edinburgh of the Seven Seas"
       details={`Producing, recording, mixing and playing some instruments on and for the upcoming Edinburgh of the Seven Seas album. He is an island and also a good friend of us.`}
     />
