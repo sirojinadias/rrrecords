@@ -28,20 +28,20 @@ export const Records: FunctionComponent = () => (
       tags={`#radioraviolirecords #haydenbesswood #spinout`}
     />
     <Record
-      title="Amasia"
-      artist="Fragments"
-      cover="FRA_AMASIA.jpg"
-      details={`Mixing. Recorded by Thomas Poli at Impersonal Freedom, Rennes (FR) & mixed in Nantes (FR).`}
-      link={`https://wiseband.lnk.to/Fragments-Amasia`}
-      tags={`#radioraviolirecords #fragments #amasia`}
-    />
-    <Record
       title="Sounds of Parade"
       artist="Bops"
       cover="BOPS_SOUNDS_OF_PARADE.jpg"
       details={`Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
       link={`https://modulor.lnk.to/SoundsOfParade`}
       tags={`#radioraviolirecords #bops #soundsofparade`}
+    />
+    <Record
+      title="Amasia"
+      artist="Fragments"
+      cover="FRA_AMASIA.jpg"
+      details={`Mixing. Recorded by Thomas Poli at Impersonal Freedom, Rennes (FR) & mixed in Nantes (FR).`}
+      link={`https://wiseband.lnk.to/Fragments-Amasia`}
+      tags={`#radioraviolirecords #fragments #amasia`}
     />
     <Record
       title="Walk Away"

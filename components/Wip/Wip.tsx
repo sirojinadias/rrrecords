@@ -5,7 +5,7 @@ type WipProps = {
   title: string
   cover?: string
   details: string
-  link: string
+  link?: string
 }
 
 type LinkProps = {
@@ -49,7 +49,7 @@ export const Wip: FunctionComponent<WipProps> = ({
         <span className="text-sm text-gray-300 font-thin">{details}</span>
       </div>
       <div className=" font-thin uppercase px-3 pb-4 mt-auto">
-        {link == 'oooops' && (
+        {link && (
           <Link href={link} btn={true}>
             More infos
           </Link>
