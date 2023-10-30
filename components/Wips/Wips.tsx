@@ -3,10 +3,13 @@ import {Wip} from '../Wip'
 
 export const Wips: FunctionComponent = () => (
   <div className="flex flex-wrap md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
-    <Wip title="Mad Foxes" details={`Mixing Mad Foxes' upcoming new album!`} />
     <Wip
-      title="Elise Bourn"
-      details={`About to mix a few songs for the debut album of the talented, Nantes-based folk artist Elise Bourn!`}
+      title="Mad Foxes"
+      details={`Just finished mixing Mad Foxes' upcoming album: Inner Battles.`}
+    />
+    <Wip
+      title="IRIS2000"
+      details={`Producing a few songs for Rennes-based artist IRIS2000.`}
     />
     <Wip
       title="Championne"
@@ -18,7 +21,7 @@ export const Wips: FunctionComponent = () => (
     />
     <Wip
       title="Neptune in June"
-      details={`Producing an album for a brand new project called Neptune in June (formerly known as La Houle). If you like lo-fi pop music and distortion, stay tuned.`}
+      details={`Produced an album for a brand new project called Neptune in June (formerly known as La Houle). If you like lo-fi pop music and distortion, stay tuned.`}
     />
     <Wip
       title="Edinburgh of the Seven Seas"

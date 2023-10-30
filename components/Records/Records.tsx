@@ -4,12 +4,28 @@ import {Record} from '../Record'
 export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
     <Record
+      title="Cold Water Swim"
+      artist="Mad Foxes"
+      cover="MF_CWS.png"
+      details={`Mix`}
+      link={`https://www.youtube.com/watch?v=_ft4ag2eiVM`}
+      tags={`#madfoxes #coldwaterswim #innerbattles`}
+    />
+    <Record
+      title="Bilboquet"
+      artist="Championne"
+      cover="CHAMP_BILBO2.png"
+      details={`Production, record, mix`}
+      link={`https://www.youtube.com/watch?v=E6Ao84J1ZQw`}
+      tags={`#championne #bilboquet`}
+    />
+    <Record
       title="Colors & Vows"
       artist="Hayden Besswood"
       cover="HB_COLORS_AND_VOWS.jpg"
       details={`Mixing. Mixed at The Apiary, Laval (FR).`}
       link={`https://www.youtube.com/playlist?list=OLAK5uy_nV_LOewXSvZ0PXjeT46Fohqn5gQuDIS9g`}
-      tags={`#radioraviolirecords #haydenbesswood #colorsandvows`}
+      tags={`#haydenbesswood #colorsandvows`}
     />
     <Record
       title="Déjà Vu"
@@ -17,7 +33,7 @@ export const Records: FunctionComponent = () => (
       cover="HB_DEJA_VU.jpeg"
       details={`Mixing. Mixed at The Apiary, Laval (FR).`}
       link={`https://www.youtube.com/watch?v=Y6ha7wbCEFQ`}
-      tags={`#radioraviolirecords #haydenbesswood #dejavu`}
+      tags={`#haydenbesswood #dejavu`}
     />
     <Record
       title="Traversée Sauvage"
@@ -25,7 +41,7 @@ export const Records: FunctionComponent = () => (
       cover="TAGO_MAGO_TRAVERSEE_SAUVAGE.jpg"
       details={`Production, recording & mixing. Recorded at The Apiary, Laval (FR) & mixed in Nantes (FR).`}
       link={`https://open.spotify.com/artist/6biUHeemP2RGExRI8ZUDa6?si=t7vKsZw6SvGZRemAupdlpA`}
-      tags={`#radioraviolirecords #tagomago #traverseesauvage`}
+      tags={`#tagomago #traverseesauvage`}
     />
     <Record
       title="Spin Out"
@@ -33,7 +49,7 @@ export const Records: FunctionComponent = () => (
       cover="HB_SPIN.jpg"
       details={`Mixing. Mixed at The Apiary, Laval (FR).`}
       link={`https://www.youtube.com/watch?v=oynGNvaKrAU`}
-      tags={`#radioraviolirecords #haydenbesswood #spinout`}
+      tags={`#haydenbesswood #spinout`}
     />
     <Record
       title="Sounds of Parade"
@@ -41,7 +57,7 @@ export const Records: FunctionComponent = () => (
       cover="BOPS_SOUNDS_OF_PARADE.jpg"
       details={`Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
       link={`https://modulor.lnk.to/SoundsOfParade`}
-      tags={`#radioraviolirecords #bops #soundsofparade`}
+      tags={`#bops #soundsofparade`}
     />
     <Record
       title="Amasia"
@@ -49,7 +65,7 @@ export const Records: FunctionComponent = () => (
       cover="FRA_AMASIA.jpg"
       details={`Mixing. Recorded by Thomas Poli at Impersonal Freedom, Rennes (FR) & mixed in Nantes (FR).`}
       link={`https://wiseband.lnk.to/Fragments-Amasia`}
-      tags={`#radioraviolirecords #fragments #amasia`}
+      tags={`#fragments #amasia`}
     />
     <Record
       title="Walk Away"
@@ -57,7 +73,7 @@ export const Records: FunctionComponent = () => (
       cover="ALICE_WALK.jpg"
       details={`Production, recording & mixing. Recorded in Nantes (FR), mixed in The Apiary, Laval (FR).`}
       link={`https://www.youtube.com/watch?v=kpmpFedL6do`}
-      tags={`#radioraviolirecords #aliceha #walkaway`}
+      tags={`#aliceha #walkaway`}
     />
     <Record
       title="Île​-​Nénuphar"
@@ -65,7 +81,7 @@ export const Records: FunctionComponent = () => (
       cover="SIM_ILE_NENUPHAR.jpeg"
       details={`Production, recording & mixing. Recorded & mixed in Nantes (FR).`}
       link={`https://simonedopale.bandcamp.com/releases`}
-      tags={`#radioraviolirecords #simonedopale #ilenenuphar`}
+      tags={`#simonedopale #ilenenuphar`}
     />
     <Record
       title="The Flag"
@@ -73,7 +89,7 @@ export const Records: FunctionComponent = () => (
       cover="BOPS_FLAG.jpg"
       details={`Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
       link={`https://www.youtube.com/watch?v=yehW7DtpNec`}
-      tags={`#radioraviolirecords #bops #soundsofparade`}
+      tags={`#bops #soundsofparade`}
     />
     <Record
       title="Quand le jour tombe"
@@ -81,7 +97,7 @@ export const Records: FunctionComponent = () => (
       cover="SIM_QUAND.jpeg"
       details={`Production, recording & mixing. Recorded & mixed in Nantes (FR).`}
       link={`https://www.youtube.com/watch?v=szcrQaxoVjE`}
-      tags={`#radioraviolirecords #simonedopale #quandlejourtombe`}
+      tags={`#simonedopale #quandlejourtombe`}
     />
     <Record
       title="The Ecomard Live Sessions"
@@ -89,7 +105,7 @@ export const Records: FunctionComponent = () => (
       cover="MC_ECOMARD.png"
       details={`Recording & mixing. Recorded in Ecomard & mixed in Nantes (FR).`}
       link={`https://www.youtube.com/watch?v=tDtKDB0WXCs`}
-      tags={`#radioraviolirecords #middlechild #ecomard`}
+      tags={`#middlechild #ecomard`}
     />
     <Record
       title="Écailles synthétiques"
@@ -97,7 +113,7 @@ export const Records: FunctionComponent = () => (
       cover="SIM_ECAILLES.jpg"
       details={`Production, recording & mixing. Recorded & mixed in Nantes (FR).`}
       link={`https://www.youtube.com/watch?v=MnI-GQpM1ro`}
-      tags={`#radioraviolirecords #simonedopale #ecaillessynthetiques`}
+      tags={`#simonedopale #ecaillessynthetiques`}
     />
     <Record
       title="Alaska"
@@ -105,7 +121,7 @@ export const Records: FunctionComponent = () => (
       cover="COCO_ALASKA.jpg"
       details={`Production, recording & mixing. Recorded in Nantes (FR), mixed in The Apiary, Laval (FR).`}
       link={`https://www.youtube.com/watch?v=kI1cYFVEw5I`}
-      tags={`#radioraviolirecords #cococlare #alaska`}
+      tags={`#cococlare #alaska`}
     />
     <Record
       title="R.A.V.A.C.H.O.L"
@@ -113,7 +129,7 @@ export const Records: FunctionComponent = () => (
       cover="BOPS_RAVACHOL.jpg"
       details={`Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
       link={`https://www.youtube.com/watch?v=T5J0-ioDzBk`}
-      tags={`#radioraviolirecords #bops #ravachol`}
+      tags={`#bops #ravachol`}
     />
     <Record
       title="Bouncer (Live Session)"
@@ -121,15 +137,7 @@ export const Records: FunctionComponent = () => (
       cover="BOPS_BOUNCER_LIVE.png"
       details={`Mixed in Nantes (FR).`}
       link={`https://www.youtube.com/watch?v=MCJ7n_AjeLs`}
-      tags={`#radioraviolirecords #bops #bouncer`}
-    />
-    <Record
-      title="Novomax Live"
-      artist="Simone d'Opale"
-      cover="SIM_NOVOMAX.png"
-      details={`Mixed in Nantes (FR).`}
-      link={`https://www.youtube.com/watch?v=TiFJdhToplE`}
-      tags={`#radioraviolirecords #simonedopale #novomax`}
+      tags={`#bops #bouncer`}
     />
     <Record
       title="Ferrailleur Live"
@@ -137,7 +145,7 @@ export const Records: FunctionComponent = () => (
       cover="BIR_FERRAILLEUR.png"
       details={`Mixed at Studio 123, Romillé (FR).`}
       link={`https://www.youtube.com/watch?v=my5V6Xf6-pM`}
-      tags={`#radioraviolirecords #birdsinrow #ferrailleur`}
+      tags={`#birdsinrow #ferrailleur`}
     />
     <Record
       title="Bouncer"
@@ -145,7 +153,7 @@ export const Records: FunctionComponent = () => (
       cover="BOPS_BOUNCER.jpg"
       details={`Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).`}
       link={`https://bops.bandcamp.com/track/bouncer`}
-      tags={`#radioraviolirecords #bops #bouncer`}
+      tags={`#bops #bouncer`}
     />
     <Record
       title="A Loop in the Eye of God"
@@ -153,7 +161,7 @@ export const Records: FunctionComponent = () => (
       cover="WNG_LOOP.jpg"
       details={`Mix & production`}
       link={`https://whitenightghosts.bandcamp.com/album/a-loop-in-the-eye-of-god`}
-      tags={`#radioraviolirecords #whitenightghosts #aloopintheeyeofgod #cranesrecords`}
+      tags={`#whitenightghosts #aloopintheeyeofgod #cranesrecords`}
     />
     <Record
       title="Fragmented Ghost Memory"
@@ -161,7 +169,7 @@ export const Records: FunctionComponent = () => (
       cover="WNG_FGM.jpg"
       details={`Mix & production`}
       link={`https://whitenightghosts.bandcamp.com/album/fragmented-ghost-memory`}
-      tags={`#radioraviolirecords #whitenightghosts #fragmentedghostmemory #cranesrecords`}
+      tags={`#whitenightghosts #fragmentedghostmemory #cranesrecords`}
     />
     <Record
       title="Songs for Marge"
@@ -169,7 +177,7 @@ export const Records: FunctionComponent = () => (
       cover="FRA_SFM.jpg"
       details={`recording & mixing. Recorded at Le Novomax, Kemper (FR). Mixed in Nantes (FR)`}
       link={`https://frgmnts.bandcamp.com/album/songs-for-marge`}
-      tags={`#radioraviolirecords #fargo #fragments #ambiant #electronica #recording #mixing #novomax #coenbrothers`}
+      tags={`#fargo #fragments #ambiant #electronica #recording #mixing #novomax #coenbrothers`}
     />
     <Record
       title="Exorcism Party"
@@ -177,7 +185,7 @@ export const Records: FunctionComponent = () => (
       cover="WNG_EXORCISM.jpg"
       details={`Full analog mix & production`}
       link={`https://whitenightghosts.bandcamp.com/album/exorcism-party`}
-      tags={`#radioraviolirecords #whitenightghosts #exorcismparty #cranesrecords`}
+      tags={`#whitenightghosts #exorcismparty #cranesrecords`}
     />
     <Record
       title="Massifs"
@@ -185,7 +193,7 @@ export const Records: FunctionComponent = () => (
       cover="FRA_MASSIFS.jpg"
       details={`Record, mix & digital master. Recorded at The Apiary, Laval (FR)`}
       link={`https://frgmnts.bandcamp.com/track/massifs`}
-      tags={`#radioraviolirecords #fragments #massifs`}
+      tags={`#fragments #massifs`}
     />
     <Record
       title="Joy"
@@ -193,7 +201,7 @@ export const Records: FunctionComponent = () => (
       cover="WNG_JOY.jpg"
       details={`Mix & production`}
       link={`http://whitenightghosts.bandcamp.com/album/joy`}
-      tags={`#radioraviolirecords #whitenightghosts #joy #cranesrecords #largebinocularrecords`}
+      tags={`#whitenightghosts #joy #cranesrecords #largebinocularrecords`}
     />
   </div>
 )
