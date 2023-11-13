@@ -20,6 +20,14 @@ export const Records: FunctionComponent = () => (
       tags={`#championne #bilboquet`}
     />
     <Record
+      title="She-Ghost"
+      artist="Neptune in June"
+      cover="NIJ_SHE_GHOST.jpg"
+      details={`Production/record/mix, and played drums + synth.`}
+      link={`https://youtu.be/oiq4y-zCk_w?feature=shared`}
+      tags={`#neptuneinjune #sheghost`}
+    />
+    <Record
       title="Colors & Vows"
       artist="Hayden Besswood"
       cover="HB_COLORS_AND_VOWS.jpg"
@@ -28,20 +36,20 @@ export const Records: FunctionComponent = () => (
       tags={`#haydenbesswood #colorsandvows`}
     />
     <Record
-      title="Déjà Vu"
-      artist="Hayden Besswood"
-      cover="HB_DEJA_VU.jpeg"
-      details={`Mixing. Mixed at The Apiary, Laval (FR).`}
-      link={`https://www.youtube.com/watch?v=Y6ha7wbCEFQ`}
-      tags={`#haydenbesswood #dejavu`}
-    />
-    <Record
       title="Traversée Sauvage"
       artist="Tago Mago"
       cover="TAGO_MAGO_TRAVERSEE_SAUVAGE.jpg"
       details={`Production, recording & mixing. Recorded at The Apiary, Laval (FR) & mixed in Nantes (FR).`}
       link={`https://open.spotify.com/artist/6biUHeemP2RGExRI8ZUDa6?si=t7vKsZw6SvGZRemAupdlpA`}
       tags={`#tagomago #traverseesauvage`}
+    />
+    <Record
+      title="Déjà Vu"
+      artist="Hayden Besswood"
+      cover="HB_DEJA_VU.jpeg"
+      details={`Mixing. Mixed at The Apiary, Laval (FR).`}
+      link={`https://www.youtube.com/watch?v=Y6ha7wbCEFQ`}
+      tags={`#haydenbesswood #dejavu`}
     />
     <Record
       title="Spin Out"
