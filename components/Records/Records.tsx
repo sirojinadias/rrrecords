@@ -4,6 +4,22 @@ import {Record} from '../Record'
 export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
     <Record
+      title="Hurricanes"
+      artist="Mad Foxes"
+      cover="MF_H.png"
+      details={`Mix`}
+      link={`https://www.youtube.com/watch?v=lerTODJoSLE`}
+      tags={`#madfoxes #hurricanes #innerbattles`}
+    />
+    <Record
+      title="Cold Water Swim"
+      artist="Mad Foxes"
+      cover="MF_CWS.png"
+      details={`Mix`}
+      link={`https://www.youtube.com/watch?v=_ft4ag2eiVM`}
+      tags={`#madfoxes #coldwaterswim #innerbattles`}
+    />
+    <Record
       title="Heavy Blow"
       artist="Neptune in June"
       cover="NIJ_HB.png"
@@ -18,14 +34,6 @@ export const Records: FunctionComponent = () => (
       details={`Production/record/mix, and played drums + synth.`}
       link={`https://youtu.be/oiq4y-zCk_w?feature=shared`}
       tags={`#neptuneinjune #sheghost`}
-    />
-    <Record
-      title="Cold Water Swim"
-      artist="Mad Foxes"
-      cover="MF_CWS.png"
-      details={`Mix`}
-      link={`https://www.youtube.com/watch?v=_ft4ag2eiVM`}
-      tags={`#madfoxes #coldwaterswim #innerbattles`}
     />
     <Record
       title="Bilboquet"
