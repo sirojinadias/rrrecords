@@ -12,20 +12,28 @@ export const Records: FunctionComponent = () => (
       tags={`#madfoxes #hurricanes #innerbattles`}
     />
     <Record
-      title="Cold Water Swim"
-      artist="Mad Foxes"
-      cover="MF_CWS.png"
-      details={`Mix`}
-      link={`https://www.youtube.com/watch?v=_ft4ag2eiVM`}
-      tags={`#madfoxes #coldwaterswim #innerbattles`}
-    />
-    <Record
       title="Heavy Blow"
       artist="Neptune in June"
       cover="NIJ_HB.png"
       details={`Production/record/mix, and played drums + bass.`}
       link={`https://youtu.be/4jUWsrbltzo?feature=shared`}
       tags={`#neptuneinjune #heavyblow`}
+    />
+    <Record
+      title="Fete"
+      artist="Championne"
+      cover="CHAMP_FETE.jpg"
+      details={`Production, record, mix`}
+      link={`https://www.youtube.com/watch?v=p8fSTZ4Ocls`}
+      tags={`#championne #fete`}
+    />
+    <Record
+      title="Cold Water Swim"
+      artist="Mad Foxes"
+      cover="MF_CWS.png"
+      details={`Mix`}
+      link={`https://www.youtube.com/watch?v=_ft4ag2eiVM`}
+      tags={`#madfoxes #coldwaterswim #innerbattles`}
     />
     <Record
       title="She-Ghost"
