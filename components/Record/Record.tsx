@@ -42,7 +42,7 @@ export const Record: FunctionComponent<RecordProps> = ({
   tags,
 }) => {
   return (
-    <div className="flex flex-col content-start gap-4 overflow-hidden w-full md:w-80 lg:w-64 bg-white min-w-min">
+    <div className="flex flex-col content-start overflow-hidden flex-grow basis-1/3 lg:basis-1/4 xl:basis-1/5 max-w-80 bg-white min-w-min">
       <div className="w-full">
         <Link href={link}>
           <Image
@@ -55,7 +55,7 @@ export const Record: FunctionComponent<RecordProps> = ({
           />
         </Link>
       </div>
-      <div className="px-3">
+      <div className="p-4">
         <span className="font-medium mr-1 text-black">
           <span className="font-extralight uppercase text-xl">{title}</span>{' '}
           <br />

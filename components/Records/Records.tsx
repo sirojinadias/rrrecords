@@ -2,7 +2,7 @@ import React, {FunctionComponent} from 'react'
 import {Record} from '../Record'
 
 export const Records: FunctionComponent = () => (
-  <div className="flex flex-wrap md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
+  <div className="flex flex-wrap gap-4 my-4">
     <Record
       title="Hurricanes"
       artist="Mad Foxes"
