@@ -4,6 +4,30 @@ import {Record} from '../Record'
 export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap gap-4 my-4">
     <Record
+      title="You And I In The Gap"
+      artist="Birds in Row & Coilguns"
+      cover="BIRGUNS.png"
+      details={`Mix`}
+      link={`https://www.youtube.com/watch?v=8VEXnVfNccE`}
+      tags={`#birdsinrow #coilguns #youandiinthegap`}
+    />
+    <Record
+      title="Inner Battles"
+      artist="Mad Foxes"
+      cover="MF_INNER_BATTLES.jpg"
+      details={`Mix`}
+      link={`https://www.youtube.com/watch?v=hq8yjAYSmz4&list=OLAK5uy_mOgP-jrq-N330mPr9RUqUe9L6ZR7JlL10&index=3`}
+      tags={`#madfoxes #innerbattles`}
+    />
+    <Record
+      title="Championne"
+      artist="Championne"
+      cover="CHAMP_CHAMP.jpg"
+      details={`Production, record, mix`}
+      link={`https://parapente.bandcamp.com/album/championne`}
+      tags={`#championne`}
+    />
+    <Record
       title="Hurricanes"
       artist="Mad Foxes"
       cover="MF_H.png"
