@@ -4,6 +4,14 @@ import {Record} from '../Record'
 export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap gap-4 my-4">
     <Record
+      title="Lychen"
+      artist="Louisahhh & La Fraicheurs"
+      cover="LOUISAHHH_LYCHEN.png"
+      details={`Mix`}
+      link={`https://labelraar.bandcamp.com/album/you-were-made-to-be-relentless`}
+      tags={`#louisahhh #lafraicheur #lychen`}
+    />
+    <Record
       title="You And I In The Gap"
       artist="Birds in Row & Coilguns"
       cover="BIRGUNS.png"
@@ -26,6 +34,14 @@ export const Records: FunctionComponent = () => (
       details={`Production, record, mix`}
       link={`https://parapente.bandcamp.com/album/championne`}
       tags={`#championne`}
+    />
+    <Record
+      title="We Took Shelter In The Woods"
+      artist="Neptune in June"
+      cover="NIJ_WE_TOOK.jpg"
+      details={`Production/record/mix, and played drums + bass.`}
+      link={`https://neptuneinjune.bandcamp.com/album/we-took-shelter-in-the-woods`}
+      tags={`#neptuneinjune`}
     />
     <Record
       title="Hurricanes"
