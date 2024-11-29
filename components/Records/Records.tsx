@@ -4,6 +4,22 @@ import {Record} from '../Record'
 export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap gap-4 my-4">
     <Record
+      title="Lila"
+      artist="Iris2000"
+      cover="IRIS_LILA.jpg"
+      details={`Production, mix, mastering`}
+      link={`https://www.youtube.com/watch?v=AcQr_JcSxK0`}
+      tags={`#iris2000 #lila`}
+    />
+    <Record
+      title="The River Bent"
+      artist="Geoffrey Le Goaziou"
+      cover="GLG_RIVER.jpg"
+      details={`Mix`}
+      link={`https://modulor.lnk.to/TheRiverBent`}
+      tags={`#geoffreylegoaziou #theriverbent`}
+    />
+    <Record
       title="Lychen"
       artist="Louisahhh & La Fraicheurs"
       cover="LOUISAHHH_LYCHEN.png"
