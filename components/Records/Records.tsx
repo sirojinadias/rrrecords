@@ -3,21 +3,38 @@ import {Record} from '../Record'
 
 export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap gap-4 my-4">
+    {' '}
     <Record
-      title="Lila"
-      artist="Iris2000"
-      cover="IRIS_LILA.jpg"
-      details={`Production, mix, mastering`}
-      link={`https://www.youtube.com/watch?v=AcQr_JcSxK0`}
-      tags={`#iris2000 #lila`}
+      title="Tapis Blanc"
+      artist="Simone d'Opale"
+      cover="SIM_TAPIS.png"
+      details={`Co-production w/ Paul Dechaume. Recording, drumming, mixing. Mastered by Thibault Chaumont.`}
+      link={`https://www.youtube.com/watch?v=i5j-SUyu-0s`}
+      tags={`#simonedopale #tapisblanc`}
     />
     <Record
-      title="The River Bent"
-      artist="Geoffrey Le Goaziou"
-      cover="GLG_RIVER.jpg"
-      details={`Mix`}
-      link={`https://modulor.lnk.to/TheRiverBent`}
-      tags={`#geoffreylegoaziou #theriverbent`}
+      title="Childhood Ghost"
+      artist="Edinburgh of the Seven Seas"
+      cover="EDIN_CHILDGHOST.jpg"
+      details={`Production, writing, arrangements, drums, mix, mastering`}
+      link={`https://music.youtube.com/watch?v=iTt7bvNwmvE&list=OLAK5uy_mxawFsxZ2XOihzd5SroxPCUHglctsONRs`}
+      tags={`#edinburghofthesevenseas #childhoodghost`}
+    />
+    <Record
+      title="We Took Shelter In The Woods"
+      artist="Neptune in June"
+      cover="NIJ_WE_TOOK.jpg"
+      details={`Production/record/mix, and played drums + bass.`}
+      link={`https://neptuneinjune.bandcamp.com/album/we-took-shelter-in-the-woods`}
+      tags={`#neptuneinjune`}
+    />
+    <Record
+      title="Fete"
+      artist="Championne"
+      cover="CHAMP_FETE.jpg"
+      details={`Production, record, mix`}
+      link={`https://www.youtube.com/watch?v=p8fSTZ4Ocls`}
+      tags={`#championne #fete`}
     />
     <Record
       title="Lychen"
@@ -28,12 +45,12 @@ export const Records: FunctionComponent = () => (
       tags={`#louisahhh #lafraicheur #lychen`}
     />
     <Record
-      title="You And I In The Gap"
-      artist="Birds in Row & Coilguns"
-      cover="BIRGUNS.png"
-      details={`Mix`}
-      link={`https://www.youtube.com/watch?v=8VEXnVfNccE`}
-      tags={`#birdsinrow #coilguns #youandiinthegap`}
+      title="Lila"
+      artist="Iris2000"
+      cover="IRIS_LILA.jpg"
+      details={`Production, mix, mastering`}
+      link={`https://www.youtube.com/watch?v=AcQr_JcSxK0`}
+      tags={`#iris2000 #lila`}
     />
     <Record
       title="Inner Battles"
@@ -52,12 +69,20 @@ export const Records: FunctionComponent = () => (
       tags={`#championne`}
     />
     <Record
-      title="We Took Shelter In The Woods"
-      artist="Neptune in June"
-      cover="NIJ_WE_TOOK.jpg"
-      details={`Production/record/mix, and played drums + bass.`}
-      link={`https://neptuneinjune.bandcamp.com/album/we-took-shelter-in-the-woods`}
-      tags={`#neptuneinjune`}
+      title="You And I In The Gap"
+      artist="Birds in Row & Coilguns"
+      cover="BIRGUNS.png"
+      details={`Mix`}
+      link={`https://www.youtube.com/watch?v=8VEXnVfNccE`}
+      tags={`#birdsinrow #coilguns #youandiinthegap`}
+    />
+    <Record
+      title="The River Bent"
+      artist="Geoffrey Le Goaziou"
+      cover="GLG_RIVER.jpg"
+      details={`Mix`}
+      link={`https://modulor.lnk.to/TheRiverBent`}
+      tags={`#geoffreylegoaziou #theriverbent`}
     />
     <Record
       title="Hurricanes"
@@ -74,14 +99,6 @@ export const Records: FunctionComponent = () => (
       details={`Production/record/mix, and played drums + bass.`}
       link={`https://youtu.be/4jUWsrbltzo?feature=shared`}
       tags={`#neptuneinjune #heavyblow`}
-    />
-    <Record
-      title="Fete"
-      artist="Championne"
-      cover="CHAMP_FETE.jpg"
-      details={`Production, record, mix`}
-      link={`https://www.youtube.com/watch?v=p8fSTZ4Ocls`}
-      tags={`#championne #fete`}
     />
     <Record
       title="Cold Water Swim"
