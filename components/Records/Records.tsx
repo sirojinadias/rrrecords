@@ -5,6 +5,14 @@ export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap gap-4 my-4">
     {' '}
     <Record
+      title="Delta City"
+      artist="Fragments"
+      cover="FRAG_DELTA.jpg"
+      details={`Co-production with Fragments, mixing. Mastered by François Terrazzoni.`}
+      link={`https://frgmnts.bandcamp.com/album/delta-city`}
+      tags={`#fragments #deltacity`}
+    />
+    <Record
       title="Tapis Blanc"
       artist="Simone d'Opale"
       cover="SIM_TAPIS.png"

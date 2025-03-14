@@ -53,13 +53,13 @@ const Home: NextPage = () => {
           </h2>
         </div>
         <Records />
-
+        {/* 
         <div className="p-6 bg-white md:max-w-sm">
           <h2 className="text-xl font-light text-black uppercase">
             Current works
           </h2>
         </div>
-        <Wips />
+        <Wips /> */}
 
         <div className="p-6 bg-white md:max-w-sm mt-10">
           <Contact />
