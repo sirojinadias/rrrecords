@@ -5,6 +5,14 @@ export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap gap-4 my-4">
     {' '}
     <Record
+      title="Soft Boy"
+      artist="Iris2000"
+      cover="IRIS_SOFT_BOY.png"
+      details={`Co-production with Paul Dechaume. Recording, mixing.`}
+      link={`https://wiseband.lnk.to/Iris2000-Soft-Boy`}
+      tags={`#iris2000 #softboy`}
+    />
+    <Record
       title="Delta City"
       artist="Fragments"
       cover="FRAG_DELTA.jpg"
@@ -56,7 +64,7 @@ export const Records: FunctionComponent = () => (
       title="Lila"
       artist="Iris2000"
       cover="IRIS_LILA.jpg"
-      details={`Production, mix, mastering`}
+      details={`Production, mix.`}
       link={`https://www.youtube.com/watch?v=AcQr_JcSxK0`}
       tags={`#iris2000 #lila`}
     />
