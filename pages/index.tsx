@@ -2,7 +2,6 @@ import type {NextPage} from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import {Records} from '../components/Records'
-import {Wips} from '../components/Wips'
 import {Contact} from '../components/Contact'
 import jorisPic from '../public/joris.saidani.jpg'
 const Home: NextPage = () => {
