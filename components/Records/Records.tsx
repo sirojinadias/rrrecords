@@ -5,12 +5,44 @@ export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap gap-4 my-4">
     {' '}
     <Record
+      title="Bernard Guez"
+      artist="Totorro"
+      cover="TT_BG.jpg"
+      details={`Production, recording & mixing. Mastered by Thibault Chaumont.`}
+      link={`https://tinyurl.com/bernardguez`}
+      tags={`#totorro #bernardguez`}
+    />
+    <Record
+      title="Dead Meat"
+      artist="Pain Magazine"
+      cover="PM_DM.png"
+      details={`Production, recording & mixing. Mastered by Alex DeYoung.`}
+      link={`https://painmagazine.ffm.to/deadmeat`}
+      tags={`#painmagazine #deadmeat`}
+    />
+    <Record
       title="Violent God"
       artist="Pain Magazine"
       cover="PM_VG.jpg"
-      details={`Production, recording & mixing.`}
+      details={`Production, recording & mixing. Mastered by Alex DeYoung`}
       link={`https://painmagazine.ffm.to/violentgod`}
       tags={`#painmagazine #violentgod`}
+    />
+    <Record
+      title="Jouer au paradis"
+      artist="Iris2000"
+      cover="I2000_JP.png"
+      details={`Production, recording & mixing.`}
+      link={`https://wiseband.lnk.to/Iris2000-Jouer-Au-Paradis`}
+      tags={`#iris2000 #jouerauparadis`}
+    />
+    <Record
+      title="Remember The Days"
+      artist="Neptune in June"
+      cover="NIJ_RMBR.jpg"
+      details={`Production, recording & mixing. Additional arrangements by Paul Dechaume`}
+      link={`https://wiseband.lnk.to/Neptune-In-June-Remember-The-Day`}
+      tags={`#neptuneinjune #rememberthedays`}
     />
     <Record
       title="Soft Boy"
