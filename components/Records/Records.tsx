@@ -21,6 +21,14 @@ export const Records: FunctionComponent = () => (
       tags={`#painmagazine #deadmeat`}
     />
     <Record
+      title="Weak and Predatory"
+      artist="Pain Magazine"
+      cover="PM_DM.png"
+      details={`Production, recording & mixing. Mastered by Alex DeYoung.`}
+      link={`https://painmagazine.ffm.to/weakpredatory`}
+      tags={`#painmagazine #weakandpredatory`}
+    />
+    <Record
       title="Violent God"
       artist="Pain Magazine"
       cover="PM_VG.jpg"
