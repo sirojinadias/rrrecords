@@ -8,7 +8,7 @@ export const Records: FunctionComponent = () => (
       title="Sugar & Plastic Plates"
       artist="Tickles"
       cover="TICKLES_SPP.jpg"
-      details={`Mixed by Joris Saïdani. Recorded by Christophe Hogommat`}
+      details={`Mixing. Recorded by Christophe Hogommat`}
       link={`https://atantreverduroi.bandcamp.com/album/tickles-sugar-plastic-plates`}
       tags={`#tickles #sugarandplasticplates`}
     />
