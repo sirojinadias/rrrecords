@@ -13,6 +13,14 @@ export const Records: FunctionComponent = () => (
       tags={`#tickles #sugarandplasticplates`}
     />
     <Record
+      title="New Music"
+      artist="Totorro"
+      cover="TT_NM.jpg"
+      details={`Production, recording & mixing. Mastered by Thibault Chaumont.`}
+      link={`https://idol-io.ffm.to/newmusic`}
+      tags={`#totorro #newmusic`}
+    />
+    <Record
       title="Bernard Guez"
       artist="Totorro"
       cover="TT_BG.jpg"
