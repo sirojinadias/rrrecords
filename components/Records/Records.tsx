@@ -5,6 +5,14 @@ export const Records: FunctionComponent = () => (
   <div className="flex flex-wrap gap-4 my-4">
     {' '}
     <Record
+      title="Violent God"
+      artist="Pain Magazine"
+      cover="PM_VG_ALBUM.png"
+      details={`Production, recording & mixing. Mastered by Alex DeYoung.`}
+      link={`https://painmagazine.bandcamp.com/track/violent-god-2`}
+      tags={`#painmagazine #violentgod`}
+    />
+    <Record
       title="Sofa So Good"
       artist="Totorro"
       cover="TTRR_SFSG.jpg"
