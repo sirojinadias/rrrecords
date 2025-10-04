@@ -7,7 +7,7 @@ export const Records: FunctionComponent = () => (
     <Record
       title="Violent God"
       artist="Pain Magazine"
-      cover="PM_VG_ALBUM.png"
+      cover="PM_VG_ALBUM.jpg"
       details={`Production, recording & mixing. Mastered by Alex DeYoung.`}
       link={`https://painmagazine.bandcamp.com/track/violent-god-2`}
       tags={`#painmagazine #violentgod`}
