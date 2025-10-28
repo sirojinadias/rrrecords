@@ -21,6 +21,22 @@ export const Records: FunctionComponent = () => (
       tags={`#totorro #sofasogood`}
     />
     <Record
+      title="Sable"
+      artist="Simone d'Opale"
+      cover="SIM_SABLE.jpg"
+      details={`Co-production w/ Paul Dechaume. Recording, drumming, mixing. Recorded at The Apiary, mixed at RRR.`}
+      link={`https://simonedopale.bandcamp.com/track/sable`}
+      tags={`#simonedopale #sable`}
+    />
+    <Record
+      title="Belle Journée"
+      artist="Simone d'Opale"
+      cover="SIM_BJ.jpg"
+      details={`Co-production w/ Paul Dechaume. Recording, mixing. Recorded at La Fleur Au Fusil, mixed at RRR.`}
+      link={`https://simonedopale.bandcamp.com/track/belle-journ-e`}
+      tags={`#simonedopale #bellejournée`}
+    />
+    <Record
       title="Oblique Fields"
       artist="Neptune in June"
       cover="NIJ_OF.jpg"
