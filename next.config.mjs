@@ -4,9 +4,9 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+  reactCompiler: true,
   experimental: {
-    ppr: 'incremental',
-    reactCompiler: true,
+    //ppr: 'incremental',
     //esmExternals: 'loose', // Ensure ESM compatibility
   },
 }
