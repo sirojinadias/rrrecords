@@ -18,14 +18,6 @@ const featureTracks: Track[] = [
     genre: 'Soundtrack / 80s /  Electronic',
   },
   {
-    title: 'Heavy Blow',
-    artist: 'Neptune in June',
-    cover: 'NIJ_WE_TOOK.jpg',
-    src: 'NIJ_HB.m4a',
-    role: 'Production, Recording, Drums, Bass, Arrangements, Mixing',
-    genre: 'Indie Pop / Lo-fi',
-  },
-  {
     title: 'Safest Car',
     artist: 'Tickles',
     cover: 'TICKLES_SPP.jpg',
@@ -72,6 +64,14 @@ const featureTracks: Track[] = [
     src: 'MF_COLD.m4a',
     role: 'Co-Production, Mix',
     genre: 'Indie Rock',
+  },
+  {
+    title: 'Heavy Blow',
+    artist: 'Neptune in June',
+    cover: 'NIJ_WE_TOOK.jpg',
+    src: 'NIJ_HB.m4a',
+    role: 'Production, Recording, Drums, Bass, Arrangements, Mixing',
+    genre: 'Indie Pop / Lo-fi',
   },
   {
     title: 'I Am Not The Body',
