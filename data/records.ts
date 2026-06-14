@@ -21,7 +21,7 @@ export const allRecords: RecordEntry[] = [
     artist: 'Pain Magazine',
     cover: 'PM_VG_ALBUM.jpg',
     details: 'Production, recording & mixing. Mastered by Alex DeYoung.',
-    link: 'https://painmagazine.bandcamp.com/track/violent-god-2',
+    link: 'https://painmagazine.bandcamp.com/album/violent-god',
     tags: '#painmagazine #violentgod',
   },
   {
@@ -31,6 +31,15 @@ export const allRecords: RecordEntry[] = [
     details: 'Production, recording & mixing. Mastered by Thibault Chaumont.',
     link: 'https://totorro.bandcamp.com/album/sofa-so-good',
     tags: '#totorro #sofasogood',
+  },
+  {
+    title: 'Bonjour Fantômes',
+    artist: "Simone d'Opale",
+    cover: 'SIM_BONJOUR_FANTOMES.jpg',
+    details:
+      'Co-production w/ Paul Dechaume. Recording, drumming, mixing. Recorded at The Apiary, mixed at RRR.',
+    link: 'https://simonedopale.bandcamp.com/album/bonjour-fant-mes',
+    tags: '#simonedopale #bonjourfantomes',
   },
   {
     title: 'Sable',
@@ -108,7 +117,7 @@ export const allRecords: RecordEntry[] = [
     tags: '#painmagazine #weakandpredatory',
   },
   {
-    title: 'Violent God',
+    title: 'Violent God (single)',
     artist: 'Pain Magazine',
     cover: 'PM_VG.jpg',
     details: 'Production, recording & mixing. Mastered by Alex DeYoung',
