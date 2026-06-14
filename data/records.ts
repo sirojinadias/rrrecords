@@ -9,6 +9,14 @@ export type RecordEntry = {
 
 export const allRecords: RecordEntry[] = [
   {
+    title: "Je m'aime",
+    artist: 'Championne',
+    cover: 'CHAMP_JEMM.jpg',
+    details: 'Production, record, mix',
+    link: 'https://alterk.lnk.to/Jemaime',
+    tags: '#championne #jemaime',
+  },
+  {
     title: 'Violent God',
     artist: 'Pain Magazine',
     cover: 'PM_VG_ALBUM.jpg',
@@ -28,7 +36,8 @@ export const allRecords: RecordEntry[] = [
     title: 'Sable',
     artist: "Simone d'Opale",
     cover: 'SIM_SABLE.jpg',
-    details: 'Co-production w/ Paul Dechaume. Recording, drumming, mixing. Recorded at The Apiary, mixed at RRR.',
+    details:
+      'Co-production w/ Paul Dechaume. Recording, drumming, mixing. Recorded at The Apiary, mixed at RRR.',
     link: 'https://simonedopale.bandcamp.com/track/sable',
     tags: '#simonedopale #sable',
   },
@@ -36,7 +45,8 @@ export const allRecords: RecordEntry[] = [
     title: 'Belle Journée',
     artist: "Simone d'Opale",
     cover: 'SIM_BJ.jpg',
-    details: 'Co-production w/ Paul Dechaume. Recording, mixing. Recorded at La Fleur Au Fusil, mixed at RRR.',
+    details:
+      'Co-production w/ Paul Dechaume. Recording, mixing. Recorded at La Fleur Au Fusil, mixed at RRR.',
     link: 'https://simonedopale.bandcamp.com/track/belle-journ-e',
     tags: '#simonedopale #bellejournée',
   },
@@ -44,7 +54,8 @@ export const allRecords: RecordEntry[] = [
     title: 'Oblique Fields',
     artist: 'Neptune in June',
     cover: 'NIJ_OF.jpg',
-    details: 'Production, recording & mixing, drumming on Sea Lion. Additional arrangements by Paul Dechaume',
+    details:
+      'Production, recording & mixing, drumming on Sea Lion. Additional arrangements by Paul Dechaume',
     link: 'https://neptuneinjune.bandcamp.com/album/oblique-fields',
     tags: '#neptuneinjune #obliquefields',
   },
@@ -116,7 +127,8 @@ export const allRecords: RecordEntry[] = [
     title: 'Remember The Days',
     artist: 'Neptune in June',
     cover: 'NIJ_RMBR.jpg',
-    details: 'Production, recording & mixing. Additional arrangements by Paul Dechaume',
+    details:
+      'Production, recording & mixing. Additional arrangements by Paul Dechaume',
     link: 'https://wiseband.lnk.to/Neptune-In-June-Remember-The-Day',
     tags: '#neptuneinjune #rememberthedays',
   },
@@ -132,7 +144,8 @@ export const allRecords: RecordEntry[] = [
     title: 'Delta City',
     artist: 'Fragments',
     cover: 'FRAG_DELTA.jpg',
-    details: 'Co-production with Fragments, mixing. Mastered by François Terrazzoni.',
+    details:
+      'Co-production with Fragments, mixing. Mastered by François Terrazzoni.',
     link: 'https://frgmnts.bandcamp.com/album/delta-city',
     tags: '#fragments #deltacity',
   },
@@ -140,7 +153,8 @@ export const allRecords: RecordEntry[] = [
     title: 'Tapis Blanc',
     artist: "Simone d'Opale",
     cover: 'SIM_TAPIS.png',
-    details: 'Co-production w/ Paul Dechaume. Recording, drumming, mixing. Mastered by Thibault Chaumont.',
+    details:
+      'Co-production w/ Paul Dechaume. Recording, drumming, mixing. Mastered by Thibault Chaumont.',
     link: 'https://www.youtube.com/watch?v=i5j-SUyu-0s',
     tags: '#simonedopale #tapisblanc',
   },
@@ -268,7 +282,8 @@ export const allRecords: RecordEntry[] = [
     title: 'Traversée Sauvage',
     artist: 'Tago Mago',
     cover: 'TAGO_MAGO_TRAVERSEE_SAUVAGE.jpg',
-    details: 'Production, recording & mixing. Recorded at The Apiary, Laval (FR) & mixed in Nantes (FR).',
+    details:
+      'Production, recording & mixing. Recorded at The Apiary, Laval (FR) & mixed in Nantes (FR).',
     link: 'https://open.spotify.com/artist/6biUHeemP2RGExRI8ZUDa6?si=t7vKsZw6SvGZRemAupdlpA',
     tags: '#tagomago #traverseesauvage',
   },
@@ -292,7 +307,8 @@ export const allRecords: RecordEntry[] = [
     title: 'Sounds of Parade',
     artist: 'Bops',
     cover: 'BOPS_SOUNDS_OF_PARADE.jpg',
-    details: 'Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).',
+    details:
+      'Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).',
     link: 'https://modulor.lnk.to/SoundsOfParade',
     tags: '#bops #soundsofparade',
   },
@@ -300,7 +316,8 @@ export const allRecords: RecordEntry[] = [
     title: 'Amasia',
     artist: 'Fragments',
     cover: 'FRA_AMASIA.jpg',
-    details: 'Mixing. Recorded by Thomas Poli at Impersonal Freedom, Rennes (FR) & mixed in Nantes (FR).',
+    details:
+      'Mixing. Recorded by Thomas Poli at Impersonal Freedom, Rennes (FR) & mixed in Nantes (FR).',
     link: 'https://wiseband.lnk.to/Fragments-Amasia',
     tags: '#fragments #amasia',
   },
@@ -308,7 +325,8 @@ export const allRecords: RecordEntry[] = [
     title: 'Walk Away',
     artist: 'Alice HA',
     cover: 'ALICE_WALK.jpg',
-    details: 'Production, recording & mixing. Recorded in Nantes (FR), mixed in The Apiary, Laval (FR).',
+    details:
+      'Production, recording & mixing. Recorded in Nantes (FR), mixed in The Apiary, Laval (FR).',
     link: 'https://www.youtube.com/watch?v=kpmpFedL6do',
     tags: '#aliceha #walkaway',
   },
@@ -324,7 +342,8 @@ export const allRecords: RecordEntry[] = [
     title: 'The Flag',
     artist: 'Bops',
     cover: 'BOPS_FLAG.jpg',
-    details: 'Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).',
+    details:
+      'Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).',
     link: 'https://www.youtube.com/watch?v=yehW7DtpNec',
     tags: '#bops #soundsofparade',
   },
@@ -356,7 +375,8 @@ export const allRecords: RecordEntry[] = [
     title: 'Alaska',
     artist: 'Coco Clare',
     cover: 'COCO_ALASKA.jpg',
-    details: 'Production, recording & mixing. Recorded in Nantes (FR), mixed in The Apiary, Laval (FR).',
+    details:
+      'Production, recording & mixing. Recorded in Nantes (FR), mixed in The Apiary, Laval (FR).',
     link: 'https://www.youtube.com/watch?v=kI1cYFVEw5I',
     tags: '#cococlare #alaska',
   },
@@ -364,7 +384,8 @@ export const allRecords: RecordEntry[] = [
     title: 'R.A.V.A.C.H.O.L',
     artist: 'Bops',
     cover: 'BOPS_RAVACHOL.jpg',
-    details: 'Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).',
+    details:
+      'Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).',
     link: 'https://www.youtube.com/watch?v=T5J0-ioDzBk',
     tags: '#bops #ravachol',
   },
@@ -388,7 +409,8 @@ export const allRecords: RecordEntry[] = [
     title: 'Bouncer',
     artist: 'Bops',
     cover: 'BOPS_BOUNCER.jpg',
-    details: 'Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).',
+    details:
+      'Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).',
     link: 'https://bops.bandcamp.com/track/bouncer',
     tags: '#bops #bouncer',
   },
@@ -412,7 +434,8 @@ export const allRecords: RecordEntry[] = [
     title: 'Songs for Marge',
     artist: 'Fragments',
     cover: 'FRA_SFM.jpg',
-    details: 'Recording & mixing. Recorded at Le Novomax, Kemper (FR). Mixed in Nantes (FR)',
+    details:
+      'Recording & mixing. Recorded at Le Novomax, Kemper (FR). Mixed in Nantes (FR)',
     link: 'https://frgmnts.bandcamp.com/album/songs-for-marge',
     tags: '#fargo #fragments #ambiant #electronica #recording #mixing #novomax #coenbrothers',
   },
