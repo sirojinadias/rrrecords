@@ -13,7 +13,7 @@ export const allRecords: RecordEntry[] = [
     artist: 'Iris2000',
     cover: 'I2000_SORTIE_USINE.jpg',
     details:
-      'Co-production with Freazy, recording & mixing. Arrangements by Paul Dechaume.',
+      'Co-production w/ Freazy and Paul Dechaume, recording & mixing. Piano by Paul Dechaume.',
     link: 'https://wiseband.lnk.to/Iris2000-Sortie-Dusine',
     tags: '#iris2000 #sortiedusine',
   },
