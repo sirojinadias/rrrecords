@@ -9,6 +9,23 @@ export type RecordEntry = {
 
 export const allRecords: RecordEntry[] = [
   {
+    title: "Sortie d'Usine",
+    artist: 'Iris2000',
+    cover: 'I2000_SORTIE_USINE.jpg',
+    details:
+      'Co-production with Freazy, recording & mixing. Arrangements by Paul Dechaume.',
+    link: 'https://wiseband.lnk.to/Iris2000-Sortie-Dusine',
+    tags: '#iris2000 #sortiedusine',
+  },
+  {
+    title: 'Nature Peinture',
+    artist: 'Championne',
+    cover: 'CHAMP_NATURE_PEINTURE.jpg',
+    details: 'Production, record, mix',
+    link: 'https://alterk.lnk.to/NaturePeinture',
+    tags: '#championne #naturepeinture',
+  },
+  {
     title: "Je m'aime",
     artist: 'Championne',
     cover: 'CHAMP_JEMM.jpg',
