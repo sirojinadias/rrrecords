@@ -12,7 +12,7 @@ export const allRecords: RecordEntry[] = [
     title: 'Le Milieu',
     artist: 'Championne',
     cover: 'CHAMP_LE_MILIEU.jpg',
-    details: 'Production, mixing & mastering',
+    details: 'Production, record, mix. Additional arrangements by Paul Dechaume.',
     link: 'https://championne.bandcamp.com/album/le-milieu',
     tags: '#championne #lemilieu',
   },
