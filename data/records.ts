@@ -5,6 +5,8 @@ export type RecordEntry = {
   details: string
   link: string
   tags: string
+  /** Pinned records are shown first, in ascending order (1 = first). */
+  pin?: number
 }
 
 export const allRecords: RecordEntry[] = [
@@ -15,6 +17,7 @@ export const allRecords: RecordEntry[] = [
     details: 'Production, record, mix. Additional arrangements by Paul Dechaume.',
     link: 'https://championne.bandcamp.com/album/le-milieu',
     tags: '#championne #lemilieu',
+    pin: 3,
   },
   {
     title: "Sortie d'Usine",
@@ -48,6 +51,7 @@ export const allRecords: RecordEntry[] = [
     details: 'Production, recording & mixing. Mastered by Alex DeYoung.',
     link: 'https://painmagazine.bandcamp.com/album/violent-god',
     tags: '#painmagazine #violentgod',
+    pin: 1,
   },
   {
     title: 'Sofa So Good',
@@ -56,6 +60,7 @@ export const allRecords: RecordEntry[] = [
     details: 'Production, recording & mixing. Mastered by Thibault Chaumont.',
     link: 'https://totorro.bandcamp.com/album/sofa-so-good',
     tags: '#totorro #sofasogood',
+    pin: 2,
   },
   {
     title: 'Bonjour Fantômes',
@@ -356,15 +361,6 @@ export const allRecords: RecordEntry[] = [
     tags: '#fragments #amasia',
   },
   {
-    title: 'Walk Away',
-    artist: 'Alice HA',
-    cover: 'ALICE_WALK.jpg',
-    details:
-      'Production, recording & mixing. Recorded in Nantes (FR), mixed in The Apiary, Laval (FR).',
-    link: 'https://www.youtube.com/watch?v=kpmpFedL6do',
-    tags: '#aliceha #walkaway',
-  },
-  {
     title: 'Île-Nénuphar',
     artist: "Simone d'Opale",
     cover: 'SIM_ILE_NENUPHAR.jpeg',
@@ -388,6 +384,15 @@ export const allRecords: RecordEntry[] = [
     details: 'Production, recording & mixing. Recorded & mixed in Nantes (FR).',
     link: 'https://www.youtube.com/watch?v=szcrQaxoVjE',
     tags: '#simonedopale #quandlejourtombe',
+  },
+  {
+    title: 'Walk Away',
+    artist: 'Alice HA',
+    cover: 'ALICE_WALK.jpg',
+    details:
+      'Production, recording & mixing. Recorded in Nantes (FR), mixed in The Apiary, Laval (FR).',
+    link: 'https://www.youtube.com/watch?v=kpmpFedL6do',
+    tags: '#aliceha #walkaway',
   },
   {
     title: 'The Ecomard Live Sessions',
@@ -422,14 +427,6 @@ export const allRecords: RecordEntry[] = [
       'Production, recording & mixing (with Baï). Recorded at The Apiary, Laval (FR), La Chambre Jaune, Chateaubourg (FR) & lounges. Mixed at Studio 123, Romillé (FR).',
     link: 'https://www.youtube.com/watch?v=T5J0-ioDzBk',
     tags: '#bops #ravachol',
-  },
-  {
-    title: 'Bouncer (Live Session)',
-    artist: 'Bops',
-    cover: 'BOPS_BOUNCER_LIVE.png',
-    details: 'Mixed in Nantes (FR).',
-    link: 'https://www.youtube.com/watch?v=MCJ7n_AjeLs',
-    tags: '#bops #bouncer',
   },
   {
     title: 'Ferrailleur Live',
@@ -497,4 +494,12 @@ export const allRecords: RecordEntry[] = [
     link: 'http://whitenightghosts.bandcamp.com/album/joy',
     tags: '#whitenightghosts #joy #cranesrecords #largebinocularrecords',
   },
+]
+
+/** All records, pinned ones first (by `pin`), then the rest in list order. */
+export const orderedRecords: RecordEntry[] = [
+  ...allRecords
+    .filter(r => r.pin !== undefined)
+    .sort((a, b) => (a.pin ?? 0) - (b.pin ?? 0)),
+  ...allRecords.filter(r => r.pin === undefined),
 ]
