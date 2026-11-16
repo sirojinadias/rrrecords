@@ -9,6 +9,14 @@ export type RecordEntry = {
 
 export const allRecords: RecordEntry[] = [
   {
+    title: 'Le Milieu',
+    artist: 'Championne',
+    cover: 'CHAMP_LE_MILIEU.jpg',
+    details: 'Production, mixing & mastering',
+    link: 'https://championne.bandcamp.com/album/le-milieu',
+    tags: '#championne #lemilieu',
+  },
+  {
     title: "Sortie d'Usine",
     artist: 'Iris2000',
     cover: 'I2000_SORTIE_USINE.jpg',
